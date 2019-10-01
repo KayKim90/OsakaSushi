@@ -1,0 +1,115 @@
+ /* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+div.navbar-collapse.collapse.in {
+  background-color:rgba(0, 0, 0, 0.23);
+}
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #262626;
+  color: whitesmoke;
+}
+.subheading {
+  font-family: 'Mansalva', cursive; 
+  font-size: 200%;
+  color: whitesmoke;
+}
+#map {
+  height: 300px;  /* The height is 400 pixels */
+  width: 100%;  /* The width is the width of the web page */
+ }
+div.bg-3 {
+  background-color: black;
+  padding-top:20px;
+  padding-bottom: 25px;
+}
+.btn {
+  display: block;
+  width: 30%;
+  padding: .4rem;
+  border: none; 
+  margin: 1rem auto; 
+  font-size: 1.3rem;
+  background: rgba(255,255,255,0.23);
+  color: #fff;
+  border-radius: 3px; 
+  cursor: pointer;
+}
+
+
+.navbar-nav>li>.topnav,
+.navbar-brand,
+.navbar-brand:visited,
+.navbar-brand:hover,
+.navbar-brand:hover {
+ display: inline-block;
+ color: #fff ; 
+ text-decoration: none;
+ background-color: transparent !important;
+ padding: 2rem;
+}
+.navbar-nav>li>.menunav {
+  color: whitesmoke;
+}
+.navbar-nav>li>.menunav:hover,
+.navbar-nav>li>.menunav:active {
+  color: black;
+}
+/* .navbar-brand,
+.navbar-brand:visited,
+.navbar-brand:hover,
+.navbar-brand:hover {
+  color:white;
+} */
+
+a:hover a:active {
+  /* background-color: yellow !important; */
+  color: yellow !important; 
+}
+.parallax {
+  /* The image used */
+  background-image: url("images/bg.jpg");
+
+  /* Set a specific height */
+  min-height: 520px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin-bottom: 0px;
+}
+.icon-bar {
+  background-color:white !important;
+}
+
+/*Menu*/
+.item-name {
+  padding-left: 1%;
+  font-size: 23px;
+}
+.tab-pane>.col-sm-3,
+.tab-pane>.row {
+  padding-top: 50px;
+}
+.specialmakimargin {
+  margin-top: 50px;
+  padding-top: 50px;
+}
+.glyphicon-tree-deciduous {
+  color: limegreen;
+  padding-right: 1px;
+}
+.platter-subheading {
+  text-align: center;
+  padding-bottom: 10px;
+}

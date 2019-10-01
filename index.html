@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUCKG8-P9gtvP6dqrtzD0u8UQIl1g4vk0&callback=initMap">
+  </script>
+  <script src="main.js"></script> 
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <style>
+
+  </style>
+</head>
+<body>
+  <div class="jumbotron parallax">
+  <div id="top" class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <!-- <a class="navbar-brand banner" href="#">Osaka Sushi</a> -->
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a class="topnav" href="#">Home</a></li>
+        <li><a class="topnav" href="#about">About</a></li>
+        <li><a class="topnav" href="#menu">Menu</a></li>
+        <li><a class="topnav" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--jumbotron-->
+  <div class="container text-center">
+    <br><br><br><br>
+    <h1 class="subheading">OSAKA SUSHI</h1>      
+    <p>JAPANESE RESTAURANT</p>
+  </div>
+</div> 
+  
+<!--Business Info-->
+<div class="container-fluid bg-3">    
+  <h3 class="text-center subheading">Business Info</h3><br>
+  <div class="row">
+    <div class="col-sm-1" style="width: 12%"></div>
+    <div class="col-sm-3" style="padding-left: 5%; padding-right:5%;">
+      <p class="text-center">Address</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>&nbsp;7 Hwy, Markham, Ontario</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>&nbsp;M4N-1V3</p>
+    </div>
+    <div class="col-sm-3"  style="padding-left: 5%; padding-right:5%;"> 
+      <p class="text-center">Hours</p>
+      <p><span class="glyphicon glyphicon-time"></span>&nbsp;Mon: Closed</p>
+      <p><span class="glyphicon glyphicon-time"></span>&nbsp;Tues-Sat: 11:30 - 22:30</p>
+      <p><span class="glyphicon glyphicon-time"></span>&nbsp;Sun: 11:30 - 22:00</p>
+    </div>
+    <div class="col-sm-3"  style="padding-left: 5%; padding-right:5%;"> 
+      <p class="text-center">Contact</p>
+      <p><span class="glyphicon glyphicon-phone"></span>&nbsp;Phone: +1 9054718006</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>&nbsp;Email:<br>info@markhamosakasushi.ca</p>
+    </div>
+    <div class="col-sm-1" style="width: 12%"></div>
+  </div>
+</div><br><br>
+
+<!--menu-->
+<div class="container parallaxtemp">    
+  <h3 class="text-center subheading">Menu</h3><br>
+    <div class="row" style="padding:30px;"><!--nav list-->
+        <ul class="nav nav-tabs navbar-nav text=center" style="width:100%; margin:auto;">
+          <li class="active"><a class="menunav" data-toggle="tab" href="#home">SOUP&amp;SALAD</a></li>
+          <li><a class="menunav" data-toggle="tab" href="#menu1">APPETIZER</a></li>
+          <li><a class="menunav" data-toggle="tab" href="#menu2">MAKI</a></li>
+          <li><a class="menunav" data-toggle="tab" href="#menu3">SPECIAL ROLLS</a></li>        
+          <li><a class="menunav" data-toggle="tab" href="#menu4">A LA CARTE</a></li>
+          <li><a class="menunav" data-toggle="tab" href="#menu5">PLATTER</a></li>
+          <li><a class="menunav" data-toggle="tab" href="#menu6">DINNER</a></li>
+          <li><a class="menunav" data-toggle="tab" href="#menu7">DONBURI</a></li>
+          <li><a class="menunav" data-toggle="tab" href="#menu8">NOODLE </a></li>
+          <li><a class="menunav" data-toggle="tab" href="#menu9">LUNCH</a></li>
+          <li><a class="menunav" data-toggle="tab" href="#menu11">TOGO</a></li>
+        </ul>          
+        <div class="tab-content">
+          <div id="home" class="tab-pane fade in active"> <!--soup salad section start-->
+            <div class="row specialmakimargin">
+              <div class="col-sm-3">
+                <span class="item-code">SO01</span><span class="item-name">Miso</span>
+                <p>soy bean paste soup</p>
+                <p>$2.50</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">SO02</span><span class="item-name">Seafood soup</span>
+                <p>Assorted seafood soup</p>
+                <p>$6.50</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">SO03</span><span class="item-name">Wonton soup</span>
+                <p>Beef dumpling soup</p>
+                <p>$5.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">SA01</span><span class="item-name">House salad</span>
+               <p>Garden salad with house dressing</p>
+               <p>$5.50</p>
+              </div>
+            </div>
+            <div class="row">
+             <div class="col-sm-3">
+                <span class="item-code">SA02</span><span class="item-name">Sunomono</span>
+                <p>Seafood on seaweed</p>
+                <p>$7.50</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">SA03</span><span class="item-name">Wakame</span>
+                <p>Seasoned seaweed with avocado, crab and cucumber</p>
+                <p>$6.50</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">SA04</span><span class="item-name">Sashimi salad</span>
+                <p>Assorted sashimi on garden salad</p>
+                <p>$10.50</p>
+              </div>
+            </div>
+          </div> <!--tab section end-->
+          <div id="menu1" class="tab-pane fade"> <!--app section start-->
+            <div class="row specialmakimargin">
+              <div class="col-sm-3">
+                <span class="item-code">AP01</span><span class="item-name">Sashimi appetizer</span>
+                <p>11pcs assorted fresh sashimi</p>
+                <p>$12.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">AP02</span><span class="item-name">Tempura appetizer</span>
+                <p>Deepfried vetetable and shrimp</p>
+                <p>$11.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">AP03</span><span class="item-name">Vegetable tempura</span>
+                <p>Deepfried assorted vegetables</p>
+                <p>$9.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">AP04</span><span class="item-name">Shrimp tempura</span>
+                <p>6pcs breaded deepfried srhimp</p>
+                <p>$10.95</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3">
+                <span class="item-code">AP05</span><span class="item-name">Kaki fry</span>
+                <p>Breaded deepfried oyster</p>
+                <p>$10.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">AP06</span><span class="item-name">Calamari</span>
+                <p>Breaded deepfried squid</p>
+                <p>$10.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">AP07</span><span class="item-name">Agedashi tofu</span>
+                <p>Deepfried tofu with katuso sauce</p>
+                <p>$6.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">AP08</span><span class="item-name">Ikayaki</span>
+                <p>BBQ squid with special sauce</p>
+                <p>$10.95</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3">
+                <span class="item-code">AP09</span><span class="item-name">Gyoza</span>
+                <p>Fried dumpling</p>
+                <p>$6.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">AP10</span><span class="item-name">Edamame</span>
+                <p>Soy bean pods</p>
+                <p>$6.95</p>
+              </div>
+              <div class="col-sm-3">
+               <span class="item-code">AP11</span><span class="item-name">LA kalbi</span>
+                <p>Marinated beef short ribs</p>
+                <p>$14.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">AP12</span><span class="item-name">Haru maki</span>
+                <p>Deepfried spring rolls</p>
+                <p>$5.95</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3">
+                <span class="item-code">AP13</span><span class="item-name">Soft shell crab</span>
+                <p>Deepfried soft shell crab</p>
+                <p>$12.95</p>
+             </div>
+              <div class="col-sm-3">
+                <span class="item-code">AP14</span><span class="item-name">Takoyaki</span>
+                <p>Baked octopus ball with takoyaki sauce</p>
+                <p>$7.50</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">AP15</span><span class="item-name">Sushi pizza</span>
+                <p>Assorted sashimi on deepfried sushi rice with house sauce</p>
+                <p>$13.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">AP16</span><span class="item-name">Goroke</span>
+                <p>Deepfried mashed potato with vegetables</p>
+                <p>$7.50</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3">
+                <span class="item-code">AP17</span><span class="item-name">Beef sashimi</span>
+                <p>Striploin beef lightly seared with ponzu sauce</p>
+                <p>$13.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">AP18</span><span class="item-name">Popcorn chicken</span>
+                <p>Deepfried breaded chicken with sauce</p>
+                <p>$7.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">AP19</span><span class="item-name">Lobster tempura</span>
+                <p>4pcs of deepfried lobster tails</p>
+                <p>$15.95</p>
+              </div>
+            </div>
+          </div> <!--tab section end-->
+          <div id="menu2" class="tab-pane fade"> <!--maki section start-->
+            <div class="row specialmakimargin">
+              <div class="col-sm-3">
+                <span class="item-name">California</span>
+                <p>Roll(6pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Hand roll(1pc)</p>
+                <p>$5.95&nbsp;&nbsp;|&nbsp;&nbsp;$4.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-name">Salmon</span>
+                <p>Roll(6pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Hand roll(1pc)</p>
+                <p>$5.95&nbsp;&nbsp;|&nbsp;&nbsp;$4.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-name">Salmon and Avocado</span>
+                <p>Roll(6pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Hand roll(1pc)</p>
+                <p>$6.95&nbsp;&nbsp;|&nbsp;&nbsp;$5.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-name">Crab(Imitation crab)</span>
+                <p>Roll(6pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Hand roll(1pc)</p>
+                <p>$5.95&nbsp;&nbsp;|&nbsp;&nbsp;$4.95</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3">
+                <span class="item-name">Tuna</span>
+                <p>Roll(6pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Hand roll(1pc)</p>
+                <p>$6.95&nbsp;&nbsp;|&nbsp;&nbsp;$5.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-name">Unagi</span>
+                <p>Roll(6pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Hand roll(1pc)</p>
+                <p>$6.95&nbsp;&nbsp;|&nbsp;&nbsp;$5.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-name">Hamachi</span>
+                <p>Roll(6pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Hand roll(1pc)</p>
+                <p>$8.50&nbsp;&nbsp;|&nbsp;&nbsp;$7.50</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-name">Toro</span>
+                <p>Roll(6pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Hand roll(1pc)</p>
+                <p>$8.50&nbsp;&nbsp;|&nbsp;&nbsp;$7.50</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3">
+                <span class="item-name">Spicy yam tempura</span>
+                <p>Roll(6pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Hand roll(1pc)</p>
+                <p>$5.95&nbsp;&nbsp;|&nbsp;&nbsp;$4.95</p>
+             </div>
+              <div class="col-sm-3">
+                <span class="item-name">Spicy california</span>
+                <p>Roll(6pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Hand roll(1pc)</p>
+                <p>$6.95&nbsp;&nbsp;|&nbsp;&nbsp;$5.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-name">Spicy crab</span>
+                <p>Roll(6pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Hand roll(1pc)</p>
+                <p>$6.95&nbsp;&nbsp;|&nbsp;&nbsp;$5.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-name">Spicy salmon</span>
+                <p>Roll(6pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Hand roll(1pc)</p>
+                <p>$6.95&nbsp;&nbsp;|&nbsp;&nbsp;$5.95</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3">
+                <span class="item-name">Spicy tuna</span>
+                <p>Roll(6pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Hand roll(1pc)</p>
+                <p>$8.95&nbsp;&nbsp;|&nbsp;&nbsp;$6.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-name">Spicy scollop</span>
+                <p>Roll(6pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Hand roll(1pc)</p>
+                <p>$7.95&nbsp;&nbsp;|&nbsp;&nbsp;$6.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="glyphicon glyphicon-tree-deciduous"></span><span class="item-name">Cucumber</span>
+                <p>Roll(6pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Hand roll(1pc)</p>
+                <p>$4.95&nbsp;&nbsp;|&nbsp;&nbsp;$3.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="glyphicon glyphicon-tree-deciduous"></span><span class="item-name">Abocado</span>
+                <p>Roll(6pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Hand roll(1pc)</p>
+                <p>$4.95&nbsp;&nbsp;|&nbsp;&nbsp;$3.95</p>
+              </div>
+            </div>
+            <div class="row">
+             <div class="col-sm-3">
+                <span class="glyphicon glyphicon-tree-deciduous"></span><span class="item-name">Asparagus</span>
+                <p>Roll(6pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Hand roll(1pc)</p>
+                <p>$4.95&nbsp;&nbsp;|&nbsp;&nbsp;$3.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="glyphicon glyphicon-tree-deciduous"></span><span class="item-name">Shitake</span>
+                <p>Roll(6pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Hand roll(1pc)</p>
+                <p>$4.95&nbsp;&nbsp;|&nbsp;&nbsp;$3.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="glyphicon glyphicon-tree-deciduous"></span><span class="item-name">Yam tempura</span>
+                <p>Roll(6pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Hand roll(1pc)</p>
+                <p>$4.95&nbsp;&nbsp;|&nbsp;&nbsp;$3.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="glyphicon glyphicon-tree-deciduous"></span><span class="item-name">Yam and Avocado</span>
+                <p>Roll(6pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Hand roll(1pc)</p>
+                <p>$5.95&nbsp;&nbsp;|&nbsp;&nbsp;$4.95</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3">
+                <span class="glyphicon glyphicon-tree-deciduous"></span><span class="item-name">Cucumber, Avocado, Aspragus</span>
+                <p>Roll(6pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Hand roll(1pc)</p>
+                <p>$5.95&nbsp;&nbsp;|&nbsp;&nbsp;$4.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="glyphicon glyphicon-tree-deciduous"></span><span class="item-name">Avocado and Cucumber</span>
+                <p>Roll(6pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Hand roll(1pc)</p>
+                <p>$5.95&nbsp;&nbsp;|&nbsp;&nbsp;$4.95</p>
+              </div>
+            </div>
+          </div> <!--tab section end-->
+          <div id="menu3" class="tab-pane fade"> <!--special roll section start-->
+            <div class="row specialmakimargin">
+              <div class="col-sm-3">
+                <span class="item-code">SR01</span><span class="item-name">Spicy Dynamite</span>
+                 <p>Shrimp tempura and california topped with spicy mayo and hot sauce</p>
+                 <p>$12.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">SR02</span><span class="item-name">Geisha</span>
+                <p>Spicy salmon and tempura bits topped with mango, wasabi mayo, spicy mayo and tobiko</p>
+                <p>$13.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">SR03</span><span class="item-name">Salmon and spicy scollop</span>
+                <p>Spicy salmon, spicy scollop, cucumber and tempura bits topped with tobiko, spicy mayo and wasabi mayo</p>
+                <p>$15.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">SR04</span><span class="item-name">Salmon lover</span>
+                <p>Spicy salmon and tempura bits topped with salmon, wasabi mayo, spicy mayo and tobiko</p>
+                <p>$14.50</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3">
+                <span class="item-code">SR05</span><span class="item-name">Kamikaze</span>
+                <p>Tuna, cucumber and tempura bits topped with spicy mayo and tobiko</p>
+                <p>$15.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">SR06</span><span class="item-name">Volcano spicy</span>
+                <p>California topped with spicy salmon, tempura bits, tobiko, spicy mayo and hot sauce</p>
+                <p>$15.50</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">SR07</span><span class="item-name">Red devils</span>
+                <p>Banana pepper, avocado, tempura bits topped with spicy tuna, sliced jalapeno, tobiko, spicy mayo and hot sauce</p>
+                <p>$15.50</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">SR08</span><span class="item-name">Healthy diet</span>
+                <p>Salmon, tuna and avocado topped with tobiko</p>
+                <p>$16.95</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3">
+                <span class="item-code">SR09</span><span class="item-name">Beef tataki</span>
+                <p>Cucumber, asparagus and avocado topped with beef, unagi sauce, wasabi mayo and green onion</p>
+                <p>$17.50</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">SR10</span><span class="item-name">Gold 888</span>
+                <p>Assorted spicy sashimi, shrimp tempura, avocado topped with salmon, unagi sauce, wasabi mayo, spicy mayo and gold flake</p>
+                <p>$18.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">SR11</span><span class="item-name">Dancing eel</span>
+                <p>Avocado, cucumber, bbq eel, and salmon topped with unagi sauce, tobiko and wasabi mayo</p>
+                <p>$14.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">SR12</span><span class="item-name">Philadelphia</span>
+                <p>Salmon, cream cheese, avocado, and cucumber topped with unagi sauce, tobiko, and wasabi mayo</p>
+                <p>$13.95</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3">
+                <span class="item-code">SR13</span><span class="item-name">Rainbow</span>
+                <p>California topped with assorted sashimi, avocado, tobiko, unagi sauce, and wasabi mayo</p>
+                <p>$14.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">SR14</span><span class="item-name">Toronto</span>
+                <p>Shrimp tempura and yam tempura topped with assorted sashimi, crab, avocado, cucumber, tobiko, unagi sauce, spicy mayo and wasabi mayo</p>
+                <p>$18.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">SR15</span><span class="item-name">Monster</span>
+                <p>Salmon, tuna, bbq eel, cream cheese, avocado and cucumber topped with unagi sauce, tobiko, and wasabi mayo</p>
+                <p>$16.50</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">SR16</span><span class="item-name">Jumbo california</span>
+                <p>Big california roll with tamago</p>
+                <p>$11.95</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3">
+                <span class="item-code">SR17</span><span class="item-name">French kiss</span>
+                <p>Shrimp tempura, salmon, cream cheese, and california topped with tobiko, green onion, unagi sauce, and wasabi mayo</p>
+                <p>$15.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">SR18</span><span class="item-name">Polar bear</span>
+                <p>California topped with seared white tuna, green onion, unagi sauce, tobiko and wasabi mayo</p>
+                <p>$14.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">SR19</span><span class="item-name">Salmon tataki</span>
+                <p>California topped with seared salmon, green onion, unagi sauce, tobiko and wasabi mayo</p>
+                <p>$14.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">SR19</span><span class="item-name">Tuna tataki</span>
+                <p>California topped with seared tuna, green onion, unagi sauce, tobiko and wasabi mayo</p>
+                <p>$15.95</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3">
+                <span class="item-code">SR19</span><span class="item-name">Mango</span>
+                <p>California topped with mango, unagi sauce</p>
+                <p>$12.95</p>
+              </div>
+            </div>         
+          </div> <!--tab section end-->
+          <div id="menu4" class="tab-pane fade"> <!--a la carte section start-->
+            <div class="row specialmakimargin">
+              <div class="col-sm-3">
+                <span class="item-name">Sake(Salmon)</span>
+                <p>Sushi(2pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Sashimi(3pc)</p>
+                <p>$5.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-name">Masago(Smelt fish roe)</span>
+                <p>Sushi(2pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Sashimi(3pc)</p>
+                <p>$4.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-name">Hokkigai(Sulf clam)</span>
+                <p>Sushi(2pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Sashimi(3pc)</p>
+                <p>$4.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-name">Ika(Squid)</span>
+                <p>Sushi(2pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Sashimi(3pc)</p>
+                <p>$5.95</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3">
+                <span class="item-name">Tamago(Rolled egg)</span>
+                <p>Sushi(2pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Sashimi(3pc)</p>
+                <p>$4.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-name">Kani(Crab meat)</span>
+                <p>Sushi(2pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Sashimi(3pc)</p>
+                <p>$4.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-name">Tai(Red snapper)</span>
+                <p>Sushi(2pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Sashimi(3pc)</p>
+                <p>$6.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-name">Maguro(Tuna)</span>
+                <p>Sushi(2pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Sashimi(3pc)</p>
+                <p>7.50</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3">
+                <span class="item-name">Albacore</span>
+                <p>Sushi(2pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Sashimi(3pc)</p>
+                <p>$6.95</p>
+              </div>
+             <div class="col-sm-3">
+                <span class="item-name">Unagi(Bbq eel)</span>
+                <p>Sushi(2pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Sashimi(3pc)</p>
+                <p>$6.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-name">Ebi(Srhimp)</span>
+                <p>Sushi(2pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Sashimi(3pc)</p>
+                <p>$5.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-name">Butter fish</span>
+                <p>Sushi(2pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Sashimi(3pc)</p>
+                <p>$5.95</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3">
+                <span class="item-name">Tako(Octopus)</span>
+                <p>Sushi(2pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Sashimi(3pc)</p>
+                <p>$6.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-name">Saba(Mackerel)</span>
+                <p>Sushi(2pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Sashimi(3pc)</p>
+                <p>$6.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-name">Hotate(Scallop)</span>
+                <p>Sushi(2pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Sashimi(3pc)</p>
+                <p>$8.50</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-name">Hamachi(Yellow tail)</span>
+                <p>Sushi(2pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Sashimi(3pc)</p>
+                <p>$8.50</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3">
+                <span class="item-name">Ikura(Salmon roe)</span>
+                <p>Sushi(2pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Sashimi(3pc)</p>
+                <p>$7.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-name">Amaebi(Sweet shrimp)</span>
+                <p>Sushi(2pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Sashimi(3pc)</p>
+                <p>$8.50</p>
+              </div>
+             <div class="col-sm-3">
+                <span class="item-name">Uni(Sea Urchin)</span>
+                <p>Sushi(2pcs)&nbsp;&nbsp;|&nbsp;&nbsp;Sashimi(3pc)</p>
+                <p>$8.50</p>
+              </div>
+            </div>
+          </div> <!--tab section end-->
+          <div id="menu5" class="tab-pane fade"> <!--platter start-->
+            <div class="row specialmakimargin">
+              <h3 class="platter-subheading">すし -  Sushi</h3>
+              <div class="col-sm-3">
+                <span class="item-code">SU01</span><span class="item-name">Take (1ppl)</span>
+                <p>10 pcs sushi, 6pcs california roll</p>
+                <p>$17.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">SU02</span><span class="item-name">Matsu (2ppl)</span>
+                <p>13 pcs sushi, 12pcs rolls</p>
+                <p>$28.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">SU03</span><span class="item-name">Small (2-3ppl)</span>
+                <p>22 pcs sushi, 18pcs rolls</p>
+                <p>$45.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">SU04</span><span class="item-name">Medium (3-4ppl)</span>
+                <p>36 pcs sushi, 24pcs rolls</p>
+                <p>$68.95</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3">
+                <span class="item-code">SU05</span><span class="item-name">Large (4-6ppl)</span>
+                <p>50 pcs sushi, 30pcs rolls</p>
+                <p>$89.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">SU06</span><span class="item-name">Extra large (7-8ppl)</span>
+                <p>58 pcs sushi, 42pcs rolls</p>
+                <p>$110.95</p>
+              </div>
+            </div>
+            <div class="row">
+              <h3 class="platter-subheading">すし.さしみ.巻き -  Sushi.Sashimi.Maki</h3>
+              <div class="col-sm-3">
+                <span class="item-code">SC01</span><span class="item-name">Small (2ppl)</span>
+                <p>16 pcs sashimi, 12 pcs sushi, 18pcs rolls</p>
+                <p>$48.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">SC02</span><span class="item-name">Medium (3-4ppl)</span>
+                <p>32 pcs sashimi, 20 pcs sushi, 24pcs rolls</p>
+                <p>$83.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">SC03</span><span class="item-name">Large (5-6ppl)</span>
+                <p>42 pcs sashimi, 24 pcs sushi, 18pcs rolls</p>
+                <p>$105.95</p>
+              </div>
+            </div>        
+            <div class="row">
+              <h3 class="platter-subheading">さしみ - Sashimi</h3>
+              <div class="col-sm-3">
+                <span class="item-code">SS01</span><span class="item-name">Small</span>
+                <p>25 pcs sashimi</p>
+                <p>$33.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">SS02</span><span class="item-name">Medium</span>
+                <p>40 pcs sashimi</p>
+                <p>$52.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">SS03</span><span class="item-name">Large</span>
+                <p>60 pcs sashimi</p>
+                <p>$76.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">SS03</span><span class="item-name">Extra large</span>
+                <p>90 pcs sashimi</p>
+                <p>$102.95</p>
+              </div>
+            </div>
+          </div><!--tab section end-->
+          <div id="menu6" class="tab-pane fade"> <!--DINNER section start-->
+            <div class="row specialmakimargin">
+              <div class="col-sm-3">
+                <span class="item-code">DE01</span><span class="item-name">Sashimi</span>
+                <p>18pcs assorted fresh sashimi with rice</p>
+                <p>$24.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">DE02</span><span class="item-name">Chirashi</span>
+                <p>Fresh sashimi and seafood on sushi rice</p>
+                <p>$20.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">DE03</span><span class="item-name">Salmon chirashi</span>
+                <p>Fresh salmon sashimi on sushi rice</p>
+                <p>$20.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">DE04</span><span class="item-name">Chicken teriyaki</span>
+                <p>Charbroiled chicken breast on hot plate</p>
+                <p>$18.95</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3">
+                <span class="item-code">DE05</span><span class="item-name">Beef teriyaki</span>
+                <p>Charbroiled striploin steak on hot plate</p>
+                <p>$20.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">DE06</span><span class="item-name">Salmon teriyaki</span>
+                <p>Charbroiled salmon steak on hot plate</p>
+                <p>$19.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">DE07</span><span class="item-name">Chicken cutlet</span>
+                <p>Deepfried chicken cutlet with cutlet sauce</p>
+                <p>$17.95</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="item-code">DE08</span><span class="item-name">Pork cutlet</span>
+                <p>Deepfried chicken cutlet with cutlet sauce</p>
+                <p>$17.95</p>
+              </div>
+            </div>
+          </div> <!--tab section end-->
+        </div>
+    </div> 
+  </div><br><br>
+
+<!--about-->
+<div id="about" class="container-fluid text-center" style="background-color: black;">     
+  <div class="row">
+    <div class="col-sm-6">
+      <img src="./images/about.jpg" class="img-responsive" style="width:100%;" alt="Image">
+    </div>
+    <div class="col-sm-6" style="padding:5rem;"> 
+      <p class="subheading">About us</p>
+      <p> Markham Osaka Sushi is a Japanese Restaurant catered in direction of quickly-paced Markam in HWY 7 and McCowan Rd. 
+          Our menu incorporates fresh and delicate sushi, sashimi, teriyaki, tempura, udon-type noodles, and appreciably a lot much more! Our delicately fresh well prepared sushi and other delectable remedies may very easily be ordered by phone and you can check out all of our menu from our website. If you need to have copy of take-out menu or lost one, you can always download from our website. we are always preciated your attention and please let us know which we can improve our service to you.
+          Now Japanese meals can be liked additional casually and conveniently! We hope to see you soon!</p>
+    </div>
+  </div>
+</div><br><br>
+
+
+<div class="container" style="width: 80%"> 
+  <h3 id="contact" class="text-center subheading" style="padding-bottom: 15px;">Contact</h3>
+    <div class="row">
+      <div class="col-md-4">
+        <p><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Find from the map</p>
+        <div id="map"></div>
+        <br><br>
+      </div> 
+      <div class="col-md-8">
+        <div class="row">
+          <p style="padding-left: 15px;"><span class="glyphicon glyphicon-heart"></span>&nbsp;We love your feedbacks!</p>
+            <!-- <div class="col-sm-6 form-group">
+              <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+            </div>
+            <div class="col-sm-6 form-group">
+              <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+            </div>
+          </div>
+          <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="9"></textarea>
+          <div class="row" style="text-align: center; padding-top:15px;">
+            <div class="col-md-12 form-group">
+              <button class="btn" type="submit">Send</button>
+            </div>
+          </div> -->
+
+          <!--form start-->
+          <form class="gform pure-form pure-form-stacked" method="POST"
+            action="https://script.google.com/macros/s/AKfycbx3mV9C24QKU45tukTPOQZaSLojUmb-qh-bU7cwXzb2Wtg-0Ld3/exec">
+            <!-- change the form action to your script url -->        
+            <!-- <div class="form-elements"> -->
+                <div class="col-sm-6 form-group">
+                <input id="name" name="name" placeholder="Name" style="width: 100%" />  
+              </div>
+              <div class="col-sm-6 form-group">  
+                  <input id="email" name="email" type="email" value=""
+                  required placeholder="Email" style="width: 100%" />
+                </div>
+                <div class="col-sm-12 form-group">
+                <textarea id="message" name="message" rows="10"
+                placeholder="Message" style="width: 100%"></textarea>  
+              </div> 
+              <button class="btn">Send</button>
+            <!-- </div>        -->
+            <!-- Customise the Thankyou Message People See when they submit the form: -->
+            <div class="thankyou_message" style="display:none;">
+              <h2><em>Thanks</em> for contacting us!<br>
+                We will get back to you soon!</h2>
+            </div>        
+          </form>
+          <!---end-->
+        </div>
+      </div>
+    </div>
+  </div><br><br>
+<footer class="container-fluid text-center" style="background-color: black;">
+  <button onclick="topFunction()" style="background-color: transparent; border-color: transparent;"><i class="material-icons">arrow_upward</i></button>
+  <h6>to the top</h6>
+  <br><br>
+  <small>&copy; Copyright 2019, kim900318@gmail.com</small>
+</footer>
+
+  <!-- Submit the Form to Google Using "AJAX" -->
+  <script data-cfasync="false" src="form-submission-handler.js"></script>
+</body>
+</html>
